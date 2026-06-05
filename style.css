@@ -1,0 +1,12 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+body{background:#111;display:flex;justify-content:center;align-items:center;height:100vh;overflow:hidden;}
+#menu{text-align:center;color:white;}
+#menu h1{margin-bottom:20px;}
+#menu button{padding:15px 30px;font-size:18px;cursor:pointer;}
+#game{width:360px;height:650px;background:#555;position:relative;overflow:hidden;border:5px solid white;display:none;}
+#road{width:100%;height:100%;position:absolute;background:repeating-linear-gradient(to bottom,#555 0px,#555 60px,white 60px,white 90px);}
+#moto{position:absolute;width:60px;height:80px;bottom:30px;left:150px;font-size:50px;display:flex;justify-content:center;align-items:center;}
+.car{position:absolute;width:60px;height:80px;font-size:50px;display:flex;justify-content:center;align-items:center;}
+#score{position:absolute;top:10px;left:10px;color:white;font-size:22px;z-index:10;}
+#gameOver{display:none;text-align:center;color:white;}
+#gameOver button{margin-top:15px;padding:12px 25px;cursor:pointer;}
